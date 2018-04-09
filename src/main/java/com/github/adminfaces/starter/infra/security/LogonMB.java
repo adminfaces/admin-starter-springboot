@@ -11,6 +11,9 @@ import java.io.IOException;
 import java.io.Serializable;
 
 import static com.github.adminfaces.starter.util.Utils.addDetailMessage;
+import org.springframework.context.annotation.Primary;
+import org.springframework.context.annotation.Scope;
+import org.springframework.context.annotation.ScopedProxyMode;
 
 /**
  * Created by rmpestano on 12/20/14.
@@ -26,6 +29,8 @@ import static com.github.adminfaces.starter.util.Utils.addDetailMessage;
 @Named
 @SessionScoped
 @Specializes
+@Primary
+@Scope(value = "session", proxyMode = ScopedProxyMode.TARGET_CLASS)
 public class LogonMB extends AdminSession implements Serializable {
 
     private String currentUser;
