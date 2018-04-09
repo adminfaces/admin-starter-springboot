@@ -10,10 +10,12 @@ import javax.faces.application.FacesMessage;
 import java.io.Serializable;
 import java.util.*;
 import java.util.stream.IntStream;
+import javax.inject.Named;
 
 /**
  * Created by rmpestano on 07/02/17.
  */
+@Named
 @ApplicationScoped
 public class Utils implements Serializable {
 

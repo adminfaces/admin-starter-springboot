@@ -6,7 +6,7 @@ package com.github.adminfaces.starter.bean;
 
 import com.github.adminfaces.starter.model.Car;
 import com.github.adminfaces.starter.service.CarService;
-import org.omnifaces.cdi.ViewScoped;
+import javax.faces.view.ViewScoped;
 import org.omnifaces.util.Faces;
 
 import javax.inject.Inject;
