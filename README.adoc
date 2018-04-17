@@ -21,10 +21,11 @@ This starter runs via *SpringBoot* using the `maven` command:
 
  
 `mvn spring-boot:run` or 
+
 `mvn clean package && java -jar target/admin-starter.war`
 
 
-The application is available at http://localhost:8080/admin-starter
+The application will be available at http://localhost:8080/admin-starter
 
 == Demo
 
