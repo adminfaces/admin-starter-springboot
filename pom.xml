@@ -21,7 +21,7 @@
         <mojarra.version>2.3.4</mojarra.version>
     </properties>
     
-<!--  uncoment to change version  <dependencyManagement>
+<!--  uncoment to AdminFaces change version  <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>com.github.adminfaces</groupId>
