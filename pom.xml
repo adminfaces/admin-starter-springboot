@@ -21,21 +21,20 @@
         <mojarra.version>2.3.4</mojarra.version>
     </properties>
     
-<!--  uncoment to AdminFaces change version  <dependencyManagement>
+    <dependencyManagement> 
         <dependencies>
             <dependency>
                 <groupId>com.github.adminfaces</groupId>
                 <artifactId>admin-template</artifactId>
-                <version>1.0.0-RC15-SNAPSHOT</version>
+                <version>1.0.0-RC15</version>
             </dependency>
             <dependency>
                 <groupId>com.github.adminfaces</groupId>
                 <artifactId>admin-theme</artifactId>
-                <version>1.0.0-RC15-SNAPSHOT</version>
+                <version>1.0.0-RC15</version>
             </dependency>
         </dependencies>
-    </dependencyManagement>    -->
-
+    </dependencyManagement> 
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
