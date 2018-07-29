@@ -66,7 +66,7 @@ public class CarFormMB implements Serializable {
             addDetailMessage("Car " + car.getModel()
                     + " removed successfully");
             Faces.getFlash().setKeepMessages(true);
-            Faces.redirect("car-list.xhtml");
+            Faces.redirect("car-list.jsf");
         }
     }
 
