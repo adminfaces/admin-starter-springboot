@@ -34,6 +34,28 @@
             body .load-bar {
                 margin-top: -20px;
             }
+            
+            @media (max-width: 768px) {
+                
+                body div.ui-growl {
+                    display: none;
+                }
+                
+               body div.ui-messages-error {
+                    display: block;
+                }
+
+            }
+
+            @media (min-width: 769px) {
+              body div.ui-growl {
+                    display: block;
+                }
+
+              body div.ui-messages-error {
+                    display: none;
+                }
+            }
         </style>
     </h:head>
 
