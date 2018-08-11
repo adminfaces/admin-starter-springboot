@@ -20,9 +20,11 @@ image:starter4.png[link="https://raw.githubusercontent.com/adminfaces/admin-star
 This starter runs via *SpringBoot* using the `maven` command:
 
  
-`mvn spring-boot:run` or 
+`mvn spring-boot:run` *or* 
 
-`mvn clean package && java -jar target/admin-starter.war`
+`mvn clean package && java -jar target/admin-starter.war` *or*
+
+`./run.sh/run.cmd`
 
 
 The application will be available at http://localhost:8080/admin-starter
