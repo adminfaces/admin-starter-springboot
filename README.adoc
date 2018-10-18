@@ -31,9 +31,11 @@ The application will be available at http://localhost:8080/admin-starter
 
 == Maven archetype
 
-A maven arquetype for this project is available on the maven central, you can generate the project with:
+We have https://github.com/adminfaces/admin-starter-springboot-archetype[a maven arcuetype^] for this project and it is available on the maven central, you can generate the project with:
 
-` mvn archetype:generate -Dfilter=com.github.adminfaces:admin-starter-springboot-archetype`
+----
+mvn archetype:generate -Dfilter=com.github.adminfaces:admin-starter-springboot-archetype
+----
 
 == Demo
 
