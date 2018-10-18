@@ -29,6 +29,12 @@ This starter runs via *SpringBoot* using the `maven` command:
 
 The application will be available at http://localhost:8080/admin-starter
 
+== Maven archetype
+
+A maven arquetype for this project is available on the maven central, you can generate the project with:
+
+` mvn archetype:generate -Dfilter=com.github.adminfaces:admin-starter-springboot-archetype`
+
 == Demo
 
 A live demo is available on Openshift here: https://admin-starter-admin-starter.1d35.starter-us-east-1.openshiftapps.com/admin-starter/
