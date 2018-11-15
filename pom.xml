@@ -24,18 +24,11 @@
     </properties>
     
     <dependencyManagement>
-        
         <dependencies>
-            
             <dependency>
                 <groupId>org.joinfaces</groupId>
                 <artifactId>omnifaces3-spring-boot-starter</artifactId>
                 <version>3.2.6</version>
-            </dependency>
-            <dependency>
-                <groupId>org.omnifaces</groupId>
-                <artifactId>omnifaces</artifactId>
-                <version>3.2</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -59,7 +52,7 @@
             <exclusions>
                 <exclusion>
                     <groupId>org.joinfaces</groupId>
-                    <artifactId>omnifaces3-spring-boot-starter</artifactId>
+                    <artifactId>omnifaces1-spring-boot-starter</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
@@ -72,7 +65,6 @@
         <dependency>
             <groupId>org.jboss.logging</groupId>
             <artifactId>jboss-logging</artifactId>
-            <version>3.3.1.Final</version>
         </dependency>
         
     </dependencies>
