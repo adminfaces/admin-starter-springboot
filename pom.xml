@@ -19,8 +19,26 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <mojarra.version>2.3.4</mojarra.version>
+        <omnifaces3.version>3.2</omnifaces3.version>
+        <weld.version>3.0.3.Final</weld.version>
     </properties>
     
+    <dependencyManagement>
+        
+        <dependencies>
+            
+            <dependency>
+                <groupId>org.joinfaces</groupId>
+                <artifactId>omnifaces3-spring-boot-starter</artifactId>
+                <version>3.2.6</version>
+            </dependency>
+            <dependency>
+                <groupId>org.omnifaces</groupId>
+                <artifactId>omnifaces</artifactId>
+                <version>3.2</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -38,7 +56,25 @@
         <dependency>
             <groupId>org.joinfaces</groupId>
             <artifactId>adminfaces-spring-boot-starter</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.joinfaces</groupId>
+                    <artifactId>omnifaces3-spring-boot-starter</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
+        
+        <dependency>
+            <groupId>org.joinfaces</groupId>
+            <artifactId>omnifaces3-spring-boot-starter</artifactId>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.jboss.logging</groupId>
+            <artifactId>jboss-logging</artifactId>
+            <version>3.3.1.Final</version>
+        </dependency>
+        
     </dependencies>
     <build>
         <finalName>admin-starter</finalName>
