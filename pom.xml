@@ -26,17 +26,17 @@
 			<dependency>
 				<groupId>com.github.adminfaces</groupId>
 				<artifactId>admin-template</artifactId>
-				<version>1.0.0-RC21</version>
+				<version>1.0.0</version>
 			</dependency>
 			<dependency>
 				<groupId>com.github.adminfaces</groupId>
 				<artifactId>admin-theme</artifactId>
-				<version>1.0.0-RC21</version>
+				<version>1.0.0</version>
 			</dependency>
 			<dependency>
 				<groupId>org.primefaces</groupId>
 				<artifactId>primefaces</artifactId>
-				<version>7.0.RC2</version>
+				<version>7.0</version>
 			</dependency>
 		</dependencies>    
 	</dependencyManagement>  
