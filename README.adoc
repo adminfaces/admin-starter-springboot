@@ -39,4 +39,4 @@ mvn archetype:generate -Dfilter=com.github.adminfaces:admin-starter-springboot-a
 
 == Demo
 
-A live demo is available on http://admin-starter-admin-starter.1d35.starter-us-east-1.openshiftapps.com/admin-starter/[Openshift here^] or in http://docker175206-admin-starter.jelasticlw.com.br/admin-starter[Jelastic here^]
+A live demo is available on https://adminfaces.github.io/admin-showcase/[Openshift here^]
